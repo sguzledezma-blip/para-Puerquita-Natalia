@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Natalia 🌹</title>
+
+<style>
+body{
+    background:black;
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    padding-top:100px;
+}
+
+button{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d6d;
+    color:white;
+    cursor:pointer;
+}
+
+#mensaje{
+    display:none;
+    margin-top:40px;
+    font-size:22px;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1.6;
+}
+
+.rosa{
+    font-size:70px;
+    animation: crecer 2s ease;
+}
+
+@keyframes crecer{
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+}
+</style>
+</head>
+
+<body>
+
+<h2>Para Natalia</h2>
+
+<button onclick="mostrar()">Abrir tu flor 🌹</button>
+
+<div id="mensaje">
+<div class="rosa">🌹</div>
+
+<p>
+Natalia,<br><br>
+
+Eres la mejor mujer que jamás conocí.<br>
+Amas sin importar, inspiras sin querer<br>
+y haces las cosas sin esperar nada a cambio.<br><br>
+
+Eso es lo que te hace única.<br><br>
+
+Te amo.
+</p>
+
+<p><b>De: Bobo</b></p>
+
+</div>
+
+<script>
+function mostrar(){
+    document.getElementById("mensaje").style.display="block";
+}
+</script>
+
+</body>
+</html>
